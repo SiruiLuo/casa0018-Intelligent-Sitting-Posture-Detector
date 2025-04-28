@@ -1,7 +1,9 @@
 # Intelligent Sitting Posture Detector
 
-Sirui Luo, link to github repo with project work in / link to Edge Impulse projects
+Sirui Luo
+
 Github repo: https://github.com/SiruiLuo/casa0018-Intelligent-Sitting-Posture-Detector
+
 Edge Impulse Project: https://studio.edgeimpulse.com/studio/649253
 
 
