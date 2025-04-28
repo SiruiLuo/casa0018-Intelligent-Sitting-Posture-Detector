@@ -15,7 +15,7 @@ This device helps users maintain good sitting posture in learning and working en
 
 <p align="center">
   <img src="./report/pic/Vest.jpg"/><br>
-  <span style="font-size: 14px; color: gray;"><b>Fig.1</b> Structure of the intelligent sitting posture detector</span>
+  <span style="font-size: 14px; color: gray;"><b>Fig.1</b> Intelligent Sitting Posture Detector</span>
 </p>
 
 **Key Features:**
