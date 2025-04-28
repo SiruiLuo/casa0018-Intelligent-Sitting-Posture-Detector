@@ -15,7 +15,7 @@ This device helps users maintain good sitting posture in learning and working en
 
 <p align="center">
   <img src="./report/pic/Vest.jpg"/><br>
-  <span style="font-size: 14px; color: gray;"><b>Fig.1</b> Intelligent Sitting Posture Detector</span>
+  <span style="font-size: 14px; color: gray;"><b>Fig.1</b> Structure of the intelligent sitting posture detector</span>
 </p>
 
 **Key Features:**
@@ -40,6 +40,36 @@ This device helps users maintain good sitting posture in learning and working en
   <img src="./report/pic/Vest_and_circuit.png"/><br>
   <span style="font-size: 14px; color: gray;"><b>Fig.2</b> Project structure</span>
 </p>
+
+## 🛠️ Deployment
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SiruiLuo/casa0018-Intelligent-Sitting-Posture-Detector.git
+   
+2. **Export the model from Edge Impulse**
+    - Go to your Edge Impulse project
+    - In Deployment, select Arduino library and download the .zip file
+
+3. **Connect your Arduino Nano 33 BLE Sense via USB**
+
+4. **Import the Edge Impulse Arduino library**
+    - Open the Arduino IDE
+    - Go to Sketch > Include Library > Add .ZIP Library…
+    - Select the downloaded Edge Impulse .zip library
+
+5. **Open and upload the Arduino sketch**
+    - Navigate to [SittingPostureDetector.ino](./Project/Arduino_code/SittingPostureDetector/SittingPostureDetector.ino)
+    - Update the library/model includes if necessary
+    - Click Upload to flash the board
+
+6. **Attach peripherals**
+    - Wire up the NeoPixel LEDs and vibration motor as shown in the wiring diagram
+
+7. **Power on your Arduino**
+    - The system will now run real-time posture detection and provide feedback via LEDs and vibration motor.
+
+
 
 ## 🗂️ Dataset
 
